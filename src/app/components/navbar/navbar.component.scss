@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    padding: 5px 10px;
+    width: 90%;
+
+    span{
+        margin-left: 5px;
+        text-decoration: none;
+        background: transparent;
+        color: white;
+    }
+
+    .input-search{
+       display: flex;
+       background: transparent;
+       gap: 5px;
+
+       img {
+        background: transparent;
+        cursor: pointer;
+       }
+
+       input{
+        background: transparent;
+        border: none;
+        color: white;
+        padding: 0.5rem;
+       }
+
+       input:focus{
+        box-shadow: 0 0 0 0;
+        outline: 0;
+       }
+        
+    }
+}

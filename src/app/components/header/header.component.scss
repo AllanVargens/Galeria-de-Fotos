@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    color: white;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+
+    width: 90%;
+
+    img{
+        display: flex;
+        background: none;
+        margin: auto;
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+        flex-grow: 0.3;
+    }
+
+    .content-header{
+        background: none;
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        flex-grow: 1;
+        h1{
+            background: none;
+        }
+    
+        p{
+            background: none;
+            width: 80%;
+        }
+    }
+
+    
+}
