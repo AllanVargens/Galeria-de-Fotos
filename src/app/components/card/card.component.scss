@@ -1,0 +1,35 @@
+.card {
+    height: 15rem;
+    width: 12rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    background: rgba(255, 255, 255, 0.17);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    cursor: pointer;
+
+    padding: 0.8rem;
+
+    p{
+        background: none;
+        font-size: 1rem;
+    }
+
+    .imagem {
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 85%;
+        margin-top: 5px;
+    }
+}
+
+.card:hover {
+    transition: all 0.7s ease;
+    transform: scale(1.1);
+}
