@@ -1,0 +1,212 @@
+[
+    {
+        "nome_planta": "Rosa",
+        "nome_cientifico": "Rosa rubiginosa",
+        "descricao": "A rosa é uma flor amplamente conhecida por sua beleza e perfume.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "rosa"
+    },
+    {
+        "nome_planta": "Margarida",
+        "nome_cientifico": "Bellis perennis",
+        "descricao": "A margarida é uma flor que simboliza a inocência e a pureza.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "margarida"
+    },
+    {
+        "nome_planta": "Girassol",
+        "nome_cientifico": "Helianthus annuus",
+        "descricao": "O girassol é conhecido por seguir o movimento do sol ao longo do dia.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "girassol"
+    },
+    {
+        "nome_planta": "Tulipa",
+        "nome_cientifico": "Tulipa gesneriana",
+        "descricao": "A tulipa é uma flor popular na primavera, especialmente nos Países Baixos.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "tulipa"
+    },
+    {
+        "nome_planta": "Lírio",
+        "nome_cientifico": "Lilium candidum",
+        "descricao": "O lírio é uma flor majestosa e frequentemente associada à pureza.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "lirio"
+    },
+    {
+        "nome_planta": "Orquídea",
+        "nome_cientifico": "Orchidaceae",
+        "descricao": "As orquídeas são conhecidas por sua grande diversidade e beleza exótica.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "orquidea"
+    },
+    {
+        "nome_planta": "Hibisco",
+        "nome_cientifico": "Hibiscus rosa-sinensis",
+        "descricao": "O hibisco é uma planta tropical com flores grandes e vistosas.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "hibisco"
+    },
+    {
+        "nome_planta": "Jasmim",
+        "nome_cientifico": "Jasminum",
+        "descricao": "O jasmim é uma planta conhecida por suas flores pequenas e perfumadas.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "jasmim"
+    },
+    {
+        "nome_planta": "Violeta",
+        "nome_cientifico": "Viola",
+        "descricao": "A violeta é uma flor pequena e delicada, muitas vezes encontrada em jardins.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "violeta"
+    },
+    {
+        "nome_planta": "Begônia",
+        "nome_cientifico": "Begonia",
+        "descricao": "As begônias são plantas com folhas assimétricas e flores coloridas.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "begonia"
+    },
+    {
+        "nome_planta": "Crisântemo",
+        "nome_cientifico": "Chrysanthemum",
+        "descricao": "O crisântemo é uma flor popular em arranjos florais e festividades.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "crisantemo"
+    },
+    {
+        "nome_planta": "Cravo",
+        "nome_cientifico": "Dianthus caryophyllus",
+        "descricao": "O cravo é uma flor tradicionalmente associada a celebrações e rituais.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "cravo"
+    },
+    {
+        "nome_planta": "Azaleia",
+        "nome_cientifico": "Rhododendron simsii",
+        "descricao": "A azaleia é uma planta que floresce na primavera com flores coloridas.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "azaleia"
+    },
+    {
+        "nome_planta": "Amarílis",
+        "nome_cientifico": "Hippeastrum",
+        "descricao": "O amarílis é uma planta bulbosa com grandes flores em forma de trombeta.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "amarilis"
+    },
+    {
+        "nome_planta": "Camélia",
+        "nome_cientifico": "Camellia japonica",
+        "descricao": "A camélia é uma planta ornamental com flores grandes e vistosas.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "camelia"
+    },
+    {
+        "nome_planta": "Gardênia",
+        "nome_cientifico": "Gardenia jasminoides",
+        "descricao": "A gardênia é uma planta conhecida por suas flores brancas e fragrância intensa.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "gardenia"
+    },
+    {
+        "nome_planta": "Magnólia",
+        "nome_cientifico": "Magnolia grandiflora",
+        "descricao": "A magnólia é uma árvore ou arbusto com flores grandes e perfumadas.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "magnolia"
+    },
+    {
+        "nome_planta": "Peônia",
+        "nome_cientifico": "Paeonia",
+        "descricao": "A peônia é uma planta perene com flores grandes e vistosas.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "peonia"
+    },
+    {
+        "nome_planta": "Hortênsia",
+        "nome_cientifico": "Hydrangea macrophylla",
+        "descricao": "A hortênsia é uma planta que produz grandes inflorescências em forma de globo.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "hortensia"
+    },
+    {
+        "nome_planta": "Primavera",
+        "nome_cientifico": "Bougainvillea",
+        "descricao": "A primavera é uma planta trepadeira com flores coloridas e vibrantes.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "primavera"
+    },
+    {
+        "nome_planta": "Lavanda",
+        "nome_cientifico": "Lavandula",
+        "descricao": "A lavanda é conhecida por suas flores roxas e fragrância calmante.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "lavanda"
+    },
+    {
+        "nome_planta": "Alecrim",
+        "nome_cientifico": "Rosmarinus officinalis",
+        "descricao": "O alecrim é uma erva aromática frequentemente usada em culinária.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "alecrim"
+    },
+    {
+        "nome_planta": "Tomilho",
+        "nome_cientifico": "Thymus vulgaris",
+        "descricao": "O tomilho é uma erva aromática comumente usada em temperos e chás.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "tomilho"
+    },
+    {
+        "nome_planta": "Sálvia",
+        "nome_cientifico": "Salvia officinalis",
+        "descricao": "A sálvia é uma erva perene utilizada em temperos e remédios naturais.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "salvia"
+    },
+    {
+        "nome_planta": "Manjericão",
+        "nome_cientifico": "Ocimum basilicum",
+        "descricao": "O manjericão é uma erva popular em culinária, especialmente em pratos italianos.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "manjericao"
+    },
+    {
+        "nome_planta": "Coentro",
+        "nome_cientifico": "Coriandrum sativum",
+        "descricao": "O coentro é uma erva amplamente utilizada em culinárias de diversas culturas.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "coentro"
+    },
+    {
+        "nome_planta": "Hortelã",
+        "nome_cientifico": "Mentha",
+        "descricao": "A hortelã é uma erva refrescante utilizada em bebidas e pratos culinários.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "hortela"
+    },
+    {
+        "nome_planta": "Erva-cidreira",
+        "nome_cientifico": "Melissa officinalis",
+        "descricao": "A erva-cidreira é uma planta conhecida por suas propriedades calmantes.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "erva-cidreira"
+    },
+    {
+        "nome_planta": "Camomila",
+        "nome_cientifico": "Matricaria chamomilla",
+        "descricao": "A camomila é uma planta utilizada em chás para promover relaxamento.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "camomila"
+    },
+    {
+        "nome_planta": "Capim-limão",
+        "nome_cientifico": "Cymbopogon citratus",
+        "descricao": "O capim-limão é uma erva utilizada em chás e na culinária asiática.",
+        "imagem": "/assets/images/card.png",
+        "nome_normalizado": "capim-limao"
+    }
+]
