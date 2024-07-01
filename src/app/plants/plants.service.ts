@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import path from 'path';
 import * as fs from 'fs';
 import { Plant } from '../models/plants.interface';
+import { fileURLToPath } from 'url';
 
 @Injectable({
   providedIn: 'root',
@@ -10,7 +11,7 @@ export class PlantsService {
   private readonly plants: Plant[];
 
   constructor() {
-    const filePath = path.join(__dirname, '..', 'plants.json');
+    const filePath = path.resolve('src', 'plants.json');
     const data = fs.readFileSync(filePath, 'utf8');
     this.plants = JSON.parse(data);
   }
