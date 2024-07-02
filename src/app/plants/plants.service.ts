@@ -1,23 +1,19 @@
 import { Injectable } from '@angular/core';
-import path from 'path';
-import * as fs from 'fs';
 import { Plant } from '../models/plants.interface';
-import { fileURLToPath } from 'url';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class PlantsService {
-  private readonly plants: Plant[];
+  private readonly plants!: Plant[];
+  private readonly jsonUrl = 'assets/plants.json';
 
-  constructor() {
-    const filePath = path.resolve('src', 'plants.json');
-    const data = fs.readFileSync(filePath, 'utf8');
-    this.plants = JSON.parse(data);
-  }
+  constructor(private http: HttpClient) {}
 
-  findAll(): Plant[] {
-    return this.plants;
+  findAll(): Observable<Plant[]> {
+    return this.http.get<Plant[]>(this.jsonUrl);
   }
 
   findOne(nome_planta: string): Plant | undefined {
