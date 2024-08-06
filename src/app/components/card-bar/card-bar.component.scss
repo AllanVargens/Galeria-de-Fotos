@@ -1,0 +1,77 @@
+section{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.card-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    background: none;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 1rem;
+    
+
+    ul{
+        background: none;
+    }
+}
+
+.controls ::ng-deep {
+    background: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white;
+
+    pagination-template{
+        background: none !important;
+    }
+
+    nav{
+        background: none !important;
+    }
+
+    a{
+        background: none;
+    }
+
+    span{
+        background: none !important;
+    }
+
+    ul, .ngx-pagination{
+        background: none;
+
+        li{
+            background: none;
+            cursor: pointer;
+
+            &.disabled{
+                color: rgb(151, 151, 151);
+                background: none;
+            }
+
+            &.pagination-previous,&.pagination-next {
+                a{
+
+                    color: white;
+                }
+            }
+
+            a{
+                background: none;
+                color: rgb(151, 151, 151);
+            }
+        }
+
+        .current{
+            color: white !important;
+        }
+    }
+}
