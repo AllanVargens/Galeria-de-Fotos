@@ -1,0 +1,32 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+
+    img{
+        width: 20rem;
+        padding: 10px;
+        margin-right: 15px;
+    }
+    h2{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .info-column{
+        li{
+            list-style: none;
+            margin-left: 8px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    footer{
+        flex-direction: column;
+        margin-left: 4rem;
+        align-items: start;
+    }
+}
