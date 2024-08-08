@@ -1,0 +1,51 @@
+.hibisco{
+    position: absolute;
+}
+
+.asa-de-dragao{
+    position: absolute;
+    right: -20vw;
+    top: 90vh;
+    z-index: -1;
+}
+
+.clitoria{
+    position: absolute;
+    left: -15vw;
+    top: 130vh;
+    z-index: -1;
+    rotate: -120deg;
+}
+
+.calendula{
+    position: absolute;
+    right: -10vw;
+    top: 150vh;
+    z-index: -1;
+    rotate: -15deg;
+}
+
+@media (max-width: 768px) {
+    .asa-de-dragao{
+        position: absolute;
+        right: -50vw;
+        top: 250vh;
+        z-index: -1;
+    }
+
+    .clitoria{
+        position: absolute;
+        left: -40vw;
+        top: 460vh;
+        z-index: -1;
+        rotate: -120deg;
+    }
+
+    .calendula{
+        position: absolute;
+        right: -30vw;
+        top: 650vh;
+        z-index: -1;
+        rotate: -15deg;
+    }
+}

@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("./assets/gradient.png");
     font-family: "Poppins", sans-serif;
+}
+
+body, html{
+    overflow-x: hidden;
 }

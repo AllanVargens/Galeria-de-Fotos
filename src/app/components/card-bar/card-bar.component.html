@@ -1,8 +1,7 @@
-<section>
+
     <div class="card-container">
-        <ul *ngFor="let plant of plants | paginate: { itemsPerPage: 12, currentPage: p}">
+        <ul *ngFor="let plant of plants | paginate: { itemsPerPage: 15, currentPage: p}">
             <app-card [plantName]="plant.nome_planta"></app-card>
         </ul>
     </div>
         <pagination-controls class="controls" (pageChange)="p = $event" previousLabel="Anterior" nextLabel="Proximo"></pagination-controls>
-</section>

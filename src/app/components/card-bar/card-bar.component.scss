@@ -1,8 +1,4 @@
-section{
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 16px;
-}
+
 .card-container{
     width: 90%;
     display: flex;
@@ -27,7 +23,7 @@ section{
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    color: white;
+    color: grey;
 
     pagination-template{
         background: none !important;
@@ -53,14 +49,14 @@ section{
             cursor: pointer;
 
             &.disabled{
-                color: rgb(151, 151, 151);
+                color: grey(151, 151, 151);
                 background: none;
             }
 
             &.pagination-previous,&.pagination-next {
                 a{
 
-                    color: white;
+                    color: grey;
                 }
             }
 
@@ -71,7 +67,7 @@ section{
         }
 
         .current{
-            color: white !important;
+            color: grey !important;
         }
     }
 }

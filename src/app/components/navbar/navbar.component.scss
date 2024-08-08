@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    color: white;
+    margin: 10px auto;
+    color: black;
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.17);
     border-radius: 16px;
@@ -18,7 +18,7 @@
         margin-left: 5px;
         text-decoration: none;
         background: transparent;
-        color: white;
+        color: black;
     }
 
     .input-search{
@@ -29,12 +29,13 @@
        img {
         background: transparent;
         cursor: pointer;
+        color: black;
        }
 
        input{
         background: transparent;
         border: none;
-        color: white;
+        color: black;
         padding: 0.5rem;
        }
 
