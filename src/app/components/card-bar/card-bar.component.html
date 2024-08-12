@@ -1,6 +1,6 @@
 
     <div class="card-container">
-        <ul *ngFor="let plant of plants | paginate: { itemsPerPage: 15, currentPage: p}">
+        <ul *ngFor="let plant of plantsFiltred | paginate: { itemsPerPage: 15, currentPage: p}">
             <app-card [plantName]="plant.nome_planta"></app-card>
         </ul>
     </div>

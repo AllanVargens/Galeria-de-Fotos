@@ -24,12 +24,12 @@
     .input-search{
        display: flex;
        background: transparent;
+       align-items: center;
        gap: 5px;
 
        img {
         background: transparent;
         cursor: pointer;
-        color: black;
        }
 
        input{
@@ -37,6 +37,11 @@
         border: none;
         color: black;
         padding: 0.5rem;
+       }
+
+       button{
+        background: none;
+        border: none;
        }
 
        input:focus{

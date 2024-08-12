@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Plant } from '../models/plants.interface';
+import { Plant } from '../../models/plants.interface';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
@@ -19,5 +19,13 @@ export class PlantsService {
   findOne(nome_planta: string): Plant | undefined {
     if (undefined) return undefined;
     return this.plants.find((plant) => plant['nome_planta'] === nome_planta);
+  }
+
+  filterByName(data: Plant[], name: string): Plant[] {
+    return data.filter(item => item.nome_planta.toLowerCase().includes(name.toLowerCase()))
+  }
+
+  filterByCientificName(data: Plant[], name: string): Plant[] {
+    return data.filter(item => item.nome_cientifico.toLowerCase().includes(name.toLowerCase()))
   }
 }
