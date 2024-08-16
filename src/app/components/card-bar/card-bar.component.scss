@@ -71,3 +71,46 @@
         }
     }
 }
+
+.modal-container{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #333;
+  min-width: 80%;
+  position: fixed;
+  left: 50%;
+  padding: 24px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  .button{
+    display: flex;
+    justify-content: end;
+    button, button::before, button::after, button:hover, button:focus{
+        width: min-content;
+        background: none;
+        border: none;
+      }
+  }
+
+  .modal-about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    .modal-infos{
+        span{
+            font-weight: bold;
+        }
+
+        p{
+            margin-top: 2rem;
+            font-size: 14px;
+        }
+    }
+
+  }
+}

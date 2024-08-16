@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { PlantsService } from '../../services/plants/plants.service';
 
 @Component({
@@ -10,6 +10,11 @@ import { PlantsService } from '../../services/plants/plants.service';
 })
 export class CardComponent implements OnInit {
   @Input() plantName!: string;
+  @Output() cardClick = new EventEmitter<string>();
   constructor() {}
   ngOnInit(): void {}
+
+  onCardClicked(){
+    this.cardClick.emit(this.plantName);
+  }
 }

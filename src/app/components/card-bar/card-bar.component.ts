@@ -1,16 +1,17 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { PlantsService } from '../../services/plants/plants.service';
 import { Plant } from '../../models/plants.interface';
-import { BehaviorSubject, Subscription } from 'rxjs';
+import { Subscription } from 'rxjs';
 import { CardComponent } from '../card/card.component';
 import { CommonModule } from '@angular/common';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { SearchService } from '../../services/search/search.service';
+import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-card-bar',
   standalone: true,
-  imports: [CardComponent, CommonModule, NgxPaginationModule],
+  imports: [CardComponent, CommonModule, NgxPaginationModule, NgbModule],
   templateUrl: './card-bar.component.html',
   styleUrl: './card-bar.component.scss',
 })
@@ -18,9 +19,10 @@ export class CardBarComponent implements OnInit {
   p: number = 1;
   plants: Plant[] = [];
   plantsFiltred: Plant[] = [];
+  plant!: Plant;
   private subscription: Subscription;
 
-  constructor(private plantsService: PlantsService, private searchService: SearchService) {
+  constructor(private plantsService: PlantsService, private searchService: SearchService, private modalService: NgbModal) {
     this.subscription = this.plantsService
       .findAll()
       .subscribe((response: Plant[]) => {
@@ -39,10 +41,18 @@ export class CardBarComponent implements OnInit {
       }
     })
   }
-
-
-
   ngOnDestroy(): void {
     this.subscription.unsubscribe();
+  }
+
+  openModal(viewTemplate: any,plantName: string){
+    if (plantName) {
+      this.plant = this.plantsFiltred.find(plant => plant.nome_planta === plantName)!;
+      this.modalService.open(viewTemplate);
+    }
+  }
+
+  closeModal(){
+    this.modalService.dismissAll();
   }
 }
