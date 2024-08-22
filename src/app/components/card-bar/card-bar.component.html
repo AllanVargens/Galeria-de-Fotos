@@ -1,6 +1,7 @@
 
 <div class="card-container">
-    <ul *ngFor="let plant of plantsFiltred | paginate: { itemsPerPage: 16, currentPage: p}">
+    <h2>Galeria <br/> de Fotos</h2>
+    <ul *ngFor="let plant of plantsFiltred | paginate: { itemsPerPage: 15, currentPage: p}">
         <app-card [plantName]="plant.nome_planta" (cardClick)="openModal(viewTemplate,$event)"></app-card>
     </ul>
 </div>

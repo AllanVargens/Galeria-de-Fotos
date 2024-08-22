@@ -16,14 +16,44 @@ header{
 
     width: 90%;
 
-    img{
-        width: max-content;
-        display: flex;
+    h2{
         background: none;
-        margin-right: 3rem;
-        object-fit: cover;
-        border-radius: 14px;
+        margin-bottom: 1rem;
     }
+
+    p{
+        background: none;
+        width: 80%;
+        margin-left: 1rem;
+    }
+    .how-is-panc{
+        display: flex;
+        .content-panc{
+            display: flex;
+            flex-direction: column;
+        }
+        .bg-img{
+            padding: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 3rem;
+            background: rgba(255, 255, 255, 0.17);
+            border-radius: 100%;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5.7px);
+            -webkit-backdrop-filter: blur(5.7px);
+            border: 1px solid rgba(255, 255, 255, 0.34);
+    }
+        img{
+            width: max-content;
+            display: flex;
+            background: none;
+            object-fit: cover;
+            border-radius: 14px;
+        }
+    }
+    
 
     .content-header{
         color: black;
@@ -35,14 +65,13 @@ header{
         flex-grow: 1;
         gap: 8px;
         margin-left: 3rem;
-        h1{
-            background: none;
+
+        .how-consume{
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-    
-        p{
-            background: none;
-            width: 80%;
-        }
+        
     }
 
     
@@ -52,9 +81,10 @@ header{
     header{
         flex-direction: column;
         justify-content: center;
-        img{
-            margin-right: 0;
+        .bg-img{
+            margin-right: 0;          
         }
+        
         .content-header{
             justify-content: center;
             align-items: center;

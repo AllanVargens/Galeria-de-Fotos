@@ -9,7 +9,10 @@
 
 body, html{
     overflow-x: hidden;
-    
+    h2{
+        color: #008037;
+        font-weight: bold
+    }
 }
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
