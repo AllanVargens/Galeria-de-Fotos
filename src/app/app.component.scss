@@ -1,3 +1,51 @@
+.main-wrap{
+    position: relative;
+    .bg-left{
+        width: 35%;
+        height: 100%;
+        position: absolute;
+        background: url("../assets/images/png/left-bg.png") repeat-y;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.5;
+        background-size: contain;
+    }
+    .bottom-bg{
+        width: 100%;
+        height: 12%;
+        position: absolute;
+        background: url("../assets/images/png/bottom-bg.png") no-repeat;
+        background-position: bottom center;
+        bottom: 0;
+        left: auto;
+        right: auto;
+        z-index: -2;
+        opacity: 0.5;
+        background-size: contain;
+    }
+    .right-bg{
+        width: 35%;
+        height: 100%;
+        position: absolute;
+        background: url("../assets/images/png/right-bg.png") repeat-y right;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.5;
+        background-size: contain;
+    }
+    .top-bg{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        background: url("../assets/images/png/top-bg.png") no-repeat right left;
+        top: 0;
+        z-index: -1;
+        opacity: 0.5;
+        background-size: contain;
+    }
+}
 .hibisco{
     position: absolute;
 }
