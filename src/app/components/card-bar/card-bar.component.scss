@@ -8,7 +8,6 @@
     flex-wrap: wrap;
     gap: 32px;
     background: none;
-    margin: 0 auto;
     margin-top: 24px;
     padding: 1rem;
     
@@ -19,6 +18,49 @@
         background: none;
     }
 }
+
+.input-container{
+    display: flex;
+    justify-content: end;
+    width: 85%;
+    .input-search{
+        display: flex;
+        width: 20%;
+        background: transparent;
+        align-items: center;
+        gap: 5px;
+        background: rgba(255, 255, 255, 0.17);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.7px);
+        -webkit-backdrop-filter: blur(5.7px);
+        border: 1px solid rgba(255, 255, 255, 0.34);
+        padding: 5px 10px;
+        img {
+         background: transparent;
+         cursor: pointer;
+        }
+    
+        input{
+         background: transparent;
+         border: none;
+         color: black;
+         padding: 0.5rem;
+        }
+    
+        button{
+         background: none;
+         border: none;
+        }
+    
+        input:focus{
+         box-shadow: 0 0 0 0;
+         outline: 0;
+        }
+         
+     }
+}
+
 
 .controls ::ng-deep {
     background: none !important;
@@ -45,6 +87,7 @@
 
     ul, .ngx-pagination{
         background: none;
+        padding-left: 0 !important;
 
         li{
             background: none;
@@ -115,4 +158,20 @@
     }
 
   }
+}
+
+@media (max-width: 768px) {
+    
+    .input-container{
+        width: 100%;
+        justify-content: center;
+        .input-search{
+            width: 80%;
+            input{
+                width: 100%;
+            }
+        }
+    }
+
+
 }

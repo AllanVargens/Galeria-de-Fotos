@@ -1,4 +1,11 @@
 
+<div class="input-container">
+    <div class="input-search">
+        <input type="text" placeholder="Pesquisa" [(ngModel)] = "searchName">
+        <button type="submit" (click)="onSearch()"><img ngSrc="assets/icons/lupa.svg" width="20" height="20" alt=""></button>
+    </div>
+</div>
+
 <div class="card-container">
     <h2>Galeria <br/> de Fotos</h2>
     <ul *ngFor="let plant of plantsFiltred | paginate: { itemsPerPage: 15, currentPage: p}">

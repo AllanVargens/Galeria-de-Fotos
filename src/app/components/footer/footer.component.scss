@@ -2,7 +2,7 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 3rem;
     gap: 2rem;
@@ -11,10 +11,12 @@ footer{
     backdrop-filter: blur(5.7px);
     -webkit-backdrop-filter: blur(5.7px);
 
+    .images{
         img{
-            width: 25%;
+            width: 40%;
             object-fit: contain;
         }
+    }
 
     h2{
         margin-top: 16px;
@@ -54,10 +56,19 @@ footer{
         gap: 0;
 
         .info-container{
+            justify-content: space-between;
             gap: 6px;
+        }
+
+        .images{
             
-            h2, li {
-                display: inline-block;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+
+            img{
+                width: 30%;
             }
         }
     }
