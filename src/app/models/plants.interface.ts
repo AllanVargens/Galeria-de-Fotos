@@ -1,7 +1,9 @@
 export type Plant = {
-  nome_planta: string;
-  nome_cientifico: string;
-  descricao: string;
-  imagem: string;
-  nome_normalizado: string;
+  id: string
+  nome_cientifico: string
+  nome_planta: string
+  caracteristica: string
+  formas_consumo: string
+  partes_comestiveis: string
+  imagem_path: string
 };

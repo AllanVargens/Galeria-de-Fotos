@@ -1,212 +1,48 @@
 [
     {
-        "nome_planta": "Rosa",
-        "nome_cientifico": "Rosa rubiginosa",
-        "descricao": "A rosa é uma flor amplamente conhecida por sua beleza e perfume.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "rosa"
+      "id": 1,
+      "nome_cientifico": "Limnocharis flava (L.) Buchenau",
+      "nome_planta": "couve-d’água, aguapé, mureré",
+      "caracteristica": "É uma planta aquática perene, ocorrência em áreas pantanosas e margens de rios. Apresenta folhas aveludadas que crescem a partir de longos pecíolos que podem atingir até 50 cm de altura. Suas flores amarelas se encontram na mesma altura da folhagem. Frutos globosos deiscentes, ou seja, se abrem naturalmente para liberar as sementes quando estão maduros. Suas folhas jovens são ricas em proteínas (13%).",
+      "formas_consumo": "Cozidas ou branqueadas. Não tem amargo forte e ficam macias e saborosas após cozimento. Pode ser consumida em pratos como refogados, sopas, saladas e demais preparos.",
+      "partes_comestiveis": "Folhas jovens, talos, botões florais, flores e pedúnculos.",
+      "imagem_path": "assets/limnocharis_flava"
     },
     {
-        "nome_planta": "Margarida",
-        "nome_cientifico": "Bellis perennis",
-        "descricao": "A margarida é uma flor que simboliza a inocência e a pureza.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "margarida"
+      "id": 2,
+      "nome_cientifico": "Alternanthera tenella Colla",
+      "nome_planta": "espinafre-do-mato, manjerico, apaga-fogo",
+      "caracteristica": "Planta herbácea anual ou perene, ocorre em regiões tropicais de climas quentes e secos. Apresenta pequeno porte com folhas verdes opostas e ovais. As inflorescências são globosas e esbranquiçadas surgindo nas axilas das folhas. De crescimento rasteiro ou decumbente podendo chegar a 1 metro de altura. É uma planta resistente, encontrada de forma abundante em terrenos, plantações e ruas. Sua ação diurética é popularmente conhecida.",
+      "formas_consumo": "Cozidas e branqueadas. Pode ser usada em molhos, patês, refogados e preparos de pães.",
+      "partes_comestiveis": "Folhas e brotos terminais.",
+      "imagem_path": "assets/alternanthera_tenella"
     },
     {
-        "nome_planta": "Girassol",
-        "nome_cientifico": "Helianthus annuus",
-        "descricao": "O girassol é conhecido por seguir o movimento do sol ao longo do dia.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "girassol"
+      "id": 3,
+      "nome_cientifico": "Amaranthus deflexus L.",
+      "nome_planta": "caruru-rasteiro, bredo, bredo-rasteiro",
+      "caracteristica": "Planta herbácea anual com folhas alternadas e membranáceas (finas e resistentes), de formato oval ou lanceolado. As inflorescências são densas em espigas de cor esverdeada. Sementes pretas e numerosas. A planta pode atingir até 40 cm de altura e tem um crescimento rápido e resistente, podendo ser indesejada em plantações. Na medicina popular, conhecida para tratar problemas digestivos e como diurético. Estudos revelam potencial nutritivo das folhas e as sementes são uma rica fonte de proteínas.",
+      "formas_consumo": "Cozidas ou branqueadas. Suas folhas jovens podem ser consumidas refogadas, também no preparo de pães e massas.",
+      "partes_comestiveis": "Ramos foliares jovens e sementes.",
+      "imagem_path": "assets/amaranthus_deflexus"
     },
     {
-        "nome_planta": "Tulipa",
-        "nome_cientifico": "Tulipa gesneriana",
-        "descricao": "A tulipa é uma flor popular na primavera, especialmente nos Países Baixos.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "tulipa"
+      "id": 4,
+      "nome_cientifico": "Amaranthus spinosus L.",
+      "nome_planta": "caruru-de-espinho, caruru-de-porco, bredo-do-espinho",
+      "caracteristica": "Planta herbácea anual com ampla distribuição no norte e nordeste do Brasil. Suas folhas são alternadas, ovais e verdes, caracterizada por apresentar espinhos nas axilas das folhas. Inflorescências longas e densas, compostas por pequenas flores esverdeadas ou avermelhadas. É uma planta resistente, comumente encontrada em áreas cultivadas e terrenos baldios. Estudos demonstram ser boa fonte de proteína, ferro, cálcio e magnésio.",
+      "formas_consumo": "Cozidas e branqueadas. Suas folhas jovens podem ser consumidas refogadas, também no preparo de pães e massas. Em regiões da África do Sul, são consumidas regularmente.",
+      "partes_comestiveis": "Ramos foliares jovens.",
+      "imagem_path": "assets/amaranthus_spinosus"
     },
     {
-        "nome_planta": "Lírio",
-        "nome_cientifico": "Lilium candidum",
-        "descricao": "O lírio é uma flor majestosa e frequentemente associada à pureza.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "lirio"
-    },
-    {
-        "nome_planta": "Orquídea",
-        "nome_cientifico": "Orchidaceae",
-        "descricao": "As orquídeas são conhecidas por sua grande diversidade e beleza exótica.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "orquidea"
-    },
-    {
-        "nome_planta": "Hibisco",
-        "nome_cientifico": "Hibiscus rosa-sinensis",
-        "descricao": "O hibisco é uma planta tropical com flores grandes e vistosas.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "hibisco"
-    },
-    {
-        "nome_planta": "Jasmim",
-        "nome_cientifico": "Jasminum",
-        "descricao": "O jasmim é uma planta conhecida por suas flores pequenas e perfumadas.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "jasmim"
-    },
-    {
-        "nome_planta": "Violeta",
-        "nome_cientifico": "Viola",
-        "descricao": "A violeta é uma flor pequena e delicada, muitas vezes encontrada em jardins.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "violeta"
-    },
-    {
-        "nome_planta": "Begônia",
-        "nome_cientifico": "Begonia",
-        "descricao": "As begônias são plantas com folhas assimétricas e flores coloridas.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "begonia"
-    },
-    {
-        "nome_planta": "Crisântemo",
-        "nome_cientifico": "Chrysanthemum",
-        "descricao": "O crisântemo é uma flor popular em arranjos florais e festividades.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "crisantemo"
-    },
-    {
-        "nome_planta": "Cravo",
-        "nome_cientifico": "Dianthus caryophyllus",
-        "descricao": "O cravo é uma flor tradicionalmente associada a celebrações e rituais.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "cravo"
-    },
-    {
-        "nome_planta": "Azaleia",
-        "nome_cientifico": "Rhododendron simsii",
-        "descricao": "A azaleia é uma planta que floresce na primavera com flores coloridas.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "azaleia"
-    },
-    {
-        "nome_planta": "Amarílis",
-        "nome_cientifico": "Hippeastrum",
-        "descricao": "O amarílis é uma planta bulbosa com grandes flores em forma de trombeta.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "amarilis"
-    },
-    {
-        "nome_planta": "Camélia",
-        "nome_cientifico": "Camellia japonica",
-        "descricao": "A camélia é uma planta ornamental com flores grandes e vistosas.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "camelia"
-    },
-    {
-        "nome_planta": "Gardênia",
-        "nome_cientifico": "Gardenia jasminoides",
-        "descricao": "A gardênia é uma planta conhecida por suas flores brancas e fragrância intensa.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "gardenia"
-    },
-    {
-        "nome_planta": "Magnólia",
-        "nome_cientifico": "Magnolia grandiflora",
-        "descricao": "A magnólia é uma árvore ou arbusto com flores grandes e perfumadas.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "magnolia"
-    },
-    {
-        "nome_planta": "Peônia",
-        "nome_cientifico": "Paeonia",
-        "descricao": "A peônia é uma planta perene com flores grandes e vistosas.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "peonia"
-    },
-    {
-        "nome_planta": "Hortênsia",
-        "nome_cientifico": "Hydrangea macrophylla",
-        "descricao": "A hortênsia é uma planta que produz grandes inflorescências em forma de globo.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "hortensia"
-    },
-    {
-        "nome_planta": "Primavera",
-        "nome_cientifico": "Bougainvillea",
-        "descricao": "A primavera é uma planta trepadeira com flores coloridas e vibrantes.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "primavera"
-    },
-    {
-        "nome_planta": "Lavanda",
-        "nome_cientifico": "Lavandula",
-        "descricao": "A lavanda é conhecida por suas flores roxas e fragrância calmante.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "lavanda"
-    },
-    {
-        "nome_planta": "Alecrim",
-        "nome_cientifico": "Rosmarinus officinalis",
-        "descricao": "O alecrim é uma erva aromática frequentemente usada em culinária.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "alecrim"
-    },
-    {
-        "nome_planta": "Tomilho",
-        "nome_cientifico": "Thymus vulgaris",
-        "descricao": "O tomilho é uma erva aromática comumente usada em temperos e chás.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "tomilho"
-    },
-    {
-        "nome_planta": "Sálvia",
-        "nome_cientifico": "Salvia officinalis",
-        "descricao": "A sálvia é uma erva perene utilizada em temperos e remédios naturais.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "salvia"
-    },
-    {
-        "nome_planta": "Manjericão",
-        "nome_cientifico": "Ocimum basilicum",
-        "descricao": "O manjericão é uma erva popular em culinária, especialmente em pratos italianos.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "manjericao"
-    },
-    {
-        "nome_planta": "Coentro",
-        "nome_cientifico": "Coriandrum sativum",
-        "descricao": "O coentro é uma erva amplamente utilizada em culinárias de diversas culturas.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "coentro"
-    },
-    {
-        "nome_planta": "Hortelã",
-        "nome_cientifico": "Mentha",
-        "descricao": "A hortelã é uma erva refrescante utilizada em bebidas e pratos culinários.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "hortela"
-    },
-    {
-        "nome_planta": "Erva-cidreira",
-        "nome_cientifico": "Melissa officinalis",
-        "descricao": "A erva-cidreira é uma planta conhecida por suas propriedades calmantes.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "erva-cidreira"
-    },
-    {
-        "nome_planta": "Camomila",
-        "nome_cientifico": "Matricaria chamomilla",
-        "descricao": "A camomila é uma planta utilizada em chás para promover relaxamento.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "camomila"
-    },
-    {
-        "nome_planta": "Capim-limão",
-        "nome_cientifico": "Cymbopogon citratus",
-        "descricao": "O capim-limão é uma erva utilizada em chás e na culinária asiática.",
-        "imagem": "/assets/images/card.png",
-        "nome_normalizado": "capim-limao"
+      "id": 5,
+      "nome_cientifico": "Celosia argentea L.",
+      "nome_planta": "celósia, espinafre-africano, crista-de-galo-plumosa",
+      "caracteristica": "Planta herbácea anual que ocorre em regiões tropicais de climas quentes, adaptadas a solos bem drenados. Se destacam por suas inflorescências plumosas em formato de espiga que variam do rosa ao vermelho intenso. Suas folhas são lanceoladas, de cor verde e avermelhadas, sementes pretas, e a planta pode atingir até 1 metro de altura. Utilizada como planta ornamental em jardins, devido às suas flores vibrantes e duradouras. Fonte de proteína, cálcio e iodo.",
+      "formas_consumo": "Cozidas ou branqueadas. As sementes podem ser cozidas com arroz ou no preparo de farinhas. Os ramos foliares podem ser refogados e utilizados para preparos culinários como arroz, caldos e galinhada.",
+      "partes_comestiveis": "Folhas jovens, ramos, talos e sementes.",
+      "imagem_path": "assets/celosia_argentea"
     }
-]
+  ]
+  

@@ -87,7 +87,7 @@ export class CardBarComponent implements OnInit {
   openModal(viewTemplate: any, plantName: string) {
     if (plantName) {
       this.plant = this.plantsFiltred.find(
-        (plant) => plant.nome_planta === plantName
+        (plant) => plant.nome_cientifico === plantName
       )!;
       this.modalService.open(viewTemplate);
     }

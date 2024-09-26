@@ -18,7 +18,7 @@ export class PlantsService {
 
   findOne(nome_planta: string): Plant | undefined {
     if (undefined) return undefined;
-    return this.plants.find((plant) => plant['nome_planta'] === nome_planta);
+    return this.plants.find((plant) => plant['nome_cientifico'] === nome_planta);
   }
 
   filterByName(data: Plant[], name: string): Plant[] {
