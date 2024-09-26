@@ -1,13 +1,17 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Inject, Input, OnInit } from '@angular/core';
 import { PlantsService } from '../../services/plants/plants.service';
 import { Plant } from '../../models/plants.interface';
 import { Subscription } from 'rxjs';
 import { CardComponent } from '../card/card.component';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { CommonModule, isPlatformBrowser, NgOptimizedImage } from '@angular/common';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { SearchService } from '../../services/search/search.service';
 import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { PLATFORM_ID } from '@angular/core';
+import Aos from 'aos';
+
+
 
 @Component({
   selector: 'app-card-bar',
@@ -34,7 +38,8 @@ export class CardBarComponent implements OnInit {
   constructor(
     private plantsService: PlantsService,
     private searchService: SearchService,
-    private modalService: NgbModal
+    private modalService: NgbModal,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {
     this.subscription = this.plantsService
       .findAll()
@@ -58,7 +63,23 @@ export class CardBarComponent implements OnInit {
         );
       }
     });
+    if(isPlatformBrowser(this.platformId)){
+      Aos.init({
+        duration: 750,
+        delay: 150,
+        });
+    }
+
   }
+
+  ngAfterViewInit(): void {
+    this.refreshAOS();
+    }
+    
+    private refreshAOS(): void {
+    Aos.refresh();
+    }
+    
   ngOnDestroy(): void {
     this.subscription.unsubscribe();
   }
