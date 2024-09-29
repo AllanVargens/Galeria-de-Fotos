@@ -146,6 +146,14 @@
     align-items: center;
     justify-content: space-around;
 
+    img{
+        height: 400px;
+        width: 300px;
+        padding: 1rem;
+        border-radius: 26px;
+        object-fit: cover;
+    }
+
     .modal-infos{
         h2{
             margin-bottom: 2rem;

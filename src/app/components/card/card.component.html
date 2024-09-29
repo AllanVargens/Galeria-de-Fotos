@@ -1,4 +1,6 @@
 <div class="card" (click)="onCardClicked()">
     <p>{{plantName}}</p>
-    <img [src]="'../../../' + plantImagePath + '.jpg'" alt="{{plantName}}">
+    <div class="image">
+        <img [src]="'../../../' + plantImagePath + '.jpg'" alt="{{plantName}}">
+    </div>
 </div>
