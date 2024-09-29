@@ -1,34 +1,15 @@
 article{
-    width: 85%;
+    width: 90%;
     padding: 2rem;
     margin: 1rem auto;
-    background: rgba(255, 255, 255, 0.17);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.7px);
-    -webkit-backdrop-filter: blur(5.7px);
-    details{
-        margin-bottom: 1rem;
-        display: flex;
-        flex-direction: column;
-        summary{
-            display: flex;
-
             h2{
                 border-bottom: 1.5px solid grey;
+                margin-bottom: 2rem;
             }
             
-           
-        }
-
-        .how-consume{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        li{
+            
+        
+        p{
             margin-left: 1rem;
         }
     }
-}
