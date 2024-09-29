@@ -9,7 +9,7 @@
 <div class="card-container" data-aos="zoom-in"  data-aos-duration="2500">
     <h2>Galeria <br/> de Fotos</h2>
     <ul *ngFor="let plant of plantsFiltred | paginate: { itemsPerPage: 15, currentPage: p}">
-        <app-card [plantName]="plant.nome_cientifico" (cardClick)="openModal(viewTemplate,$event)"></app-card>
+        <app-card [plantName]="plant.nome_cientifico" [plantImagePath]="plant.imagem_path" (cardClick)="openModal(viewTemplate,$event)"></app-card>
     </ul>
 </div>
     <pagination-controls class="controls" (pageChange)="p = $event" previousLabel="Anterior" nextLabel="Proximo"></pagination-controls>
@@ -22,7 +22,7 @@
            <div class="button"> <button (click)="closeModal()"><img src="../../../assets/icons/xmark-solid.svg" alt="close" style="width: 20px;"></button></div>
         <div class="modal-about">
             @if(plant){
-                <img src="../../../assets/images/png/logo-pank-sem-borda.png" alt="logo">
+                <img [src]="'../../../' + plant.imagem_path + '.jpg'" alt="logo">
                 <div class="modal-infos">
                     <h2>{{plant.nome_cientifico}}</h2>
 

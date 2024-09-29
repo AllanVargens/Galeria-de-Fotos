@@ -10,11 +10,12 @@ import { PlantsService } from '../../services/plants/plants.service';
 })
 export class CardComponent implements OnInit {
   @Input() plantName!: string;
+  @Input() plantImagePath!: string;
   @Output() cardClick = new EventEmitter<string>();
   constructor() {}
   ngOnInit(): void {}
 
-  onCardClicked(){
+  onCardClicked() {
     this.cardClick.emit(this.plantName);
   }
 }
