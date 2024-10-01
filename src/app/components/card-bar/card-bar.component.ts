@@ -3,15 +3,17 @@ import { PlantsService } from '../../services/plants/plants.service';
 import { Plant } from '../../models/plants.interface';
 import { Subscription } from 'rxjs';
 import { CardComponent } from '../card/card.component';
-import { CommonModule, isPlatformBrowser, NgOptimizedImage } from '@angular/common';
+import {
+  CommonModule,
+  isPlatformBrowser,
+  NgOptimizedImage,
+} from '@angular/common';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { SearchService } from '../../services/search/search.service';
 import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 import { PLATFORM_ID } from '@angular/core';
 import Aos from 'aos';
-
-
 
 @Component({
   selector: 'app-card-bar',
@@ -34,6 +36,8 @@ export class CardBarComponent implements OnInit {
   plant!: Plant;
   private subscription: Subscription;
   searchName: string = '';
+  plantNameSplited: string[] = [];
+  plantNameReplaced: string = '';
 
   constructor(
     private plantsService: PlantsService,
@@ -63,23 +67,22 @@ export class CardBarComponent implements OnInit {
         );
       }
     });
-    if(isPlatformBrowser(this.platformId)){
+    if (isPlatformBrowser(this.platformId)) {
       Aos.init({
         duration: 750,
         delay: 150,
-        });
+      });
     }
-
   }
 
   ngAfterViewInit(): void {
     this.refreshAOS();
-    }
-    
-    private refreshAOS(): void {
+  }
+
+  private refreshAOS(): void {
     Aos.refresh();
-    }
-    
+  }
+
   ngOnDestroy(): void {
     this.subscription.unsubscribe();
   }
@@ -89,6 +92,17 @@ export class CardBarComponent implements OnInit {
       this.plant = this.plantsFiltred.find(
         (plant) => plant.nome_cientifico === plantName
       )!;
+
+      this.plantNameSplited = plantName.split(' ');
+      this.plantNameReplaced = plantName;
+      this.plantNameReplaced = this.plantNameReplaced.replace(
+        this.plantNameSplited[0],
+        ''
+      );
+      this.plantNameReplaced = this.plantNameReplaced.replace(
+        this.plantNameSplited[1],
+        ''
+      );
       this.modalService.open(viewTemplate);
     }
   }

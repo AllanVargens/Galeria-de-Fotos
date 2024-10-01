@@ -42,7 +42,28 @@ footer{
                 a:hover{
                     transform: translate    (0px, -3px);
                 }
+
+                
             }
+            .ifbaiano-info{
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+
+                a{
+                    color: rgb(90, 90, 90);
+                    display: flex;
+                    gap: 4px;
+                    text-decoration: none;
+
+                    img{
+                        width: 2rem;
+                        margin-bottom: 4px;
+                    }
+                }
+                
+             }
         }
     }
 }
@@ -58,6 +79,31 @@ footer{
         .info-container{
             justify-content: space-between;
             gap: 6px;
+            
+            .info-column{
+
+                li{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    text-wrap: wrap;
+                    height: auto;
+
+                    a{
+                        width: 185px;
+                        text-wrap: wrap;
+                    }
+                }
+                .ifbaiano-info{
+                    text-wrap: wrap;
+
+                    a{
+                        width: 185px;
+                        text-wrap: wrap;
+                        margin-bottom: 4px;
+                    }
+                }
+            }
         }
 
         .images{
@@ -68,7 +114,7 @@ footer{
             margin: 0 auto;
 
             img{
-                width: 30%;
+                width: 50%;
             }
         }
     }

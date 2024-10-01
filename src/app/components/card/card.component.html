@@ -1,5 +1,5 @@
 <div class="card" (click)="onCardClicked()">
-    <p>{{plantName}}</p>
+    <p><i>{{plantNameSplited[0] + " " + plantNameSplited[1] + " "}}</i>{{plantNameReplaced}}</p>
     <div class="image">
         <img [src]="'../../../' + plantImagePath + '.jpg'" alt="{{plantName}}">
     </div>

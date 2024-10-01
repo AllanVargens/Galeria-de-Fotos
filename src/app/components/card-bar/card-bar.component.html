@@ -24,7 +24,7 @@
             @if(plant){
                 <img [src]="'../../../' + plant.imagem_path + '.jpg'" alt="logo">
                 <div class="modal-infos">
-                    <h2>{{plant.nome_cientifico}}</h2>
+                    <h2><i>{{plantNameSplited[0] + " " + plantNameSplited[1] + " "}}</i>{{plantNameReplaced}}</h2>
 
                     <li>
                         <span>Nome Popular:</span>
